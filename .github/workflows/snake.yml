@@ -5,6 +5,9 @@ on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 permissions:
   contents: write
@@ -17,7 +20,9 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: ANURAGPANDEY786
-          outputs: dist/github-contribution-grid-snake.svg
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       - name: Publish animation
         uses: peaceiris/actions-gh-pages@v4
