@@ -6,6 +6,7 @@ Replace social URLs and project links with your verified links before publishing
 <div align="center">
 
 <img src="assets/hero.svg?v=1" alt="Anurag Pandey — Java Backend Developer" width="100%"/>
+<img src="./profile.jpg" width="180" alt="Anurag Pandey" />
 
 </div>
 
