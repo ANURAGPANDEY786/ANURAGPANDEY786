@@ -74,7 +74,7 @@ A student-focused platform for discovering PG/rooms, food services, medical assi
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=ANURAGPANDEY786&theme=tokyonight&hide_border=true" alt="GitHub contribution streak" width="70%"/>
 </div>
-
+<img src="https://raw.githubusercontent.com/ANURAGPANDEY786/ANURAGPANDEY786/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 ## Let's Connect
 
 <div align="center">
