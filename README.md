@@ -70,11 +70,11 @@ A student-focused platform for discovering PG/rooms, food services, medical assi
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=ANURAGPANDEY786&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub stats"/>
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ANURAGPANDEY786&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages"/>
 </div>
+<img src="https://raw.githubusercontent.com/ANURAGPANDEY786/ANURAGPANDEY786/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" width="100%" />
 
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=ANURAGPANDEY786&theme=tokyonight&hide_border=true" alt="GitHub contribution streak" width="70%"/>
 </div>
-<img src="https://raw.githubusercontent.com/ANURAGPANDEY786/ANURAGPANDEY786/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" width="100%" />
 ## Let's Connect
 
 <div align="center">
