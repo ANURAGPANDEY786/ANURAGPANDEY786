@@ -6,7 +6,7 @@ Replace social URLs and project links with your verified links before publishing
 <div align="center">
 
 <img src="assets/hero.svg?v=1" alt="Anurag Pandey — Java Backend Developer" width="100%"/>
-<img src="./profile.jpg" width="180" alt="Anurag Pandey" />
+
 
 </div>
 
@@ -74,7 +74,7 @@ A student-focused platform for discovering PG/rooms, food services, medical assi
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=ANURAGPANDEY786&theme=tokyonight&hide_border=true" alt="GitHub contribution streak" width="70%"/>
 </div>
-<img src="https://raw.githubusercontent.com/ANURAGPANDEY786/ANURAGPANDEY786/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/ANURAGPANDEY786/ANURAGPANDEY786/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" width="100%" />
 ## Let's Connect
 
 <div align="center">
