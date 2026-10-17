@@ -1,12 +1,113 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Anurag Pandey developer profile">
-<defs><linearGradient id="g"><stop stop-color="#247bff"/><stop offset="1" stop-color="#ff354f"/></linearGradient><pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#247bff" opacity=".3"/></pattern></defs>
-<rect width="1200" height="360" rx="24" fill="#070b16"/><rect width="1200" height="360" rx="24" fill="url(#dots)"/><circle cx="1050" cy="150" r="190" fill="#247bff" opacity=".08"/><circle cx="1040" cy="160" r="135" fill="none" stroke="url(#g)" stroke-width="2" opacity=".7"/>
-<text x="58" y="68" fill="#a9b8d5" font-family="monospace" font-size="20">&lt; Hello, I'm /&gt;</text>
-<text x="58" y="132" fill="#f2f6ff" font-family="Arial,sans-serif" font-size="54" font-weight="700">Anurag Pandey</text>
-<rect x="58" y="157" width="540" height="3" rx="2" fill="url(#g)"/>
-<text x="58" y="201" fill="#35d5ff" font-family="Arial,sans-serif" font-size="25" font-weight="600">Java Backend Developer</text>
-<text x="58" y="239" fill="#b6c5e2" font-family="Arial,sans-serif" font-size="21">DSA  •  Spring Boot  •  Exploring GenAI</text>
-<text x="58" y="281" fill="#dbe6ff" font-family="Arial,sans-serif" font-size="18">Building practical software, learning every day.</text>
-<text x="58" y="319" fill="#8295bb" font-family="Arial,sans-serif" font-size="16">IET Lucknow  ·  CSE Student</text>
-<g transform="translate(820 40)"><rect width="300" height="265" rx="22" fill="#0b1428" stroke="#234a88"/><circle cx="150" cy="86" r="58" fill="none" stroke="url(#g)" stroke-width="4"/><circle cx="150" cy="86" r="48" fill="#101e39"/><text x="150" y="104" text-anchor="middle" fill="#eaf2ff" font-family="Arial,sans-serif" font-size="48" font-weight="700">AP</text><text x="150" y="180" text-anchor="middle" fill="#f2f6ff" font-family="Arial,sans-serif" font-size="20" font-weight="700">LEARN • BUILD • GROW</text><text x="150" y="212" text-anchor="middle" fill="#8ca5d7" font-family="monospace" font-size="13">backend / security / AI</text><path d="M60 235 H240" stroke="url(#g)" stroke-width="3" stroke-linecap="round"/></g>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080d1b"/>
+      <stop offset="55%" stop-color="#111b38"/>
+      <stop offset="100%" stop-color="#260d27"/>
+      <animate attributeName="x1" values="0;1;0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="50%" stop-color="#6c63ff"/>
+      <stop offset="100%" stop-color="#ff3864"/>
+      <animate attributeName="x1" values="0;1;0" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="textGradient">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#8be9fd"/>
+      <stop offset="100%" stop-color="#b9a5ff"/>
+      <animate attributeName="x1" values="0;1;0" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#6c8cff" stroke-opacity=".12" stroke-width="1"/>
+    </pattern>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <clipPath id="clip">
+      <rect width="1200" height="360" rx="24"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+    <rect width="1200" height="360" fill="url(#grid)"/>
+
+    <circle cx="1030" cy="95" r="110" fill="#5145ff" opacity=".12">
+      <animate attributeName="r" values="90;125;90" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".08;.22;.08" dur="6s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="1080" cy="270" r="130" fill="#ff3864" opacity=".08">
+      <animate attributeName="r" values="130;95;130" dur="7s" repeatCount="indefinite"/>
+    </circle>
+
+    <g fill="none" stroke="url(#neon)" stroke-width="2" opacity=".8" filter="url(#glow)">
+      <circle cx="1020" cy="180" r="105" stroke-dasharray="18 12">
+        <animateTransform attributeName="transform" type="rotate" from="0 1020 180" to="360 1020 180" dur="24s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1020" cy="180" r="78" stroke-dasharray="4 12">
+        <animateTransform attributeName="transform" type="rotate" from="360 1020 180" to="0 1020 180" dur="18s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <g fill="#72e8ff">
+      <circle cx="925" cy="82" r="3">
+        <animate attributeName="cy" values="82;68;82" dur="3s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1110" cy="105" r="4">
+        <animate attributeName="opacity" values="1;.2;1" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1135" cy="245" r="3">
+        <animate attributeName="cy" values="245;260;245" dur="4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="930" cy="275" r="4">
+        <animate attributeName="opacity" values=".2;1;.2" dur="2.5s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <g transform="translate(920 110)" filter="url(#glow)">
+      <path d="M0 0 L-28 28 L0 56" fill="none" stroke="#00e5ff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M50 0 L78 28 L50 56" fill="none" stroke="#ff3864" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M36 -8 L15 64" fill="none" stroke="#b9a5ff" stroke-width="4" stroke-linecap="round"/>
+    </g>
+
+    <text x="68" y="67" fill="#76e5ff" font-family="monospace" font-size="15" letter-spacing="4">HELLO, WORLD! I'M</text>
+
+    <text x="64" y="139" font-family="Arial, Helvetica, sans-serif" font-size="53" font-weight="800" fill="url(#textGradient)">ANURAG PANDEY</text>
+
+    <rect x="68" y="165" width="475" height="2" rx="1" fill="url(#neon)">
+      <animate attributeName="width" values="80;475;360;475" dur="5s" repeatCount="indefinite"/>
+    </rect>
+
+    <text x="70" y="207" fill="#e1e8ff" font-family="monospace" font-size="21">Java Backend Developer</text>
+
+    <rect x="70" y="222" width="12" height="23" fill="#00e5ff">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+
+    <text x="70" y="274" fill="#aab8da" font-family="Arial, Helvetica, sans-serif" font-size="16">DSA  •  Spring Boot  •  Security  •  GenAI</text>
+
+    <g transform="translate(70 309)">
+      <rect width="150" height="29" rx="14" fill="#102b3b" stroke="#00d9ff" stroke-opacity=".7"/>
+      <text x="75" y="19" fill="#80efff" text-anchor="middle" font-family="monospace" font-size="12">BUILDING &gt;_</text>
+
+      <rect x="162" width="155" height="29" rx="14" fill="#211b40" stroke="#9182ff" stroke-opacity=".8"/>
+      <text x="239" y="19" fill="#c8bdff" text-anchor="middle" font-family="monospace" font-size="12">ALWAYS LEARNING</text>
+    </g>
+
+    <path d="M30 18H250 M30 18V45 M1170 315H1190V342H1080" fill="none" stroke="url(#neon)" stroke-width="2" opacity=".8"/>
+
+    <rect x="1" y="1" width="1198" height="358" rx="23" fill="none" stroke="url(#neon)" stroke-width="2" opacity=".8"/>
+  </g>
 </svg>
