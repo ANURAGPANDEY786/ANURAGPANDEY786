@@ -71,6 +71,11 @@ A student-focused platform for discovering PG/rooms, food services, medical assi
 
 </div>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ANURAGPANDEY786/ANURAGPANDEY786/output/github-contribution-grid-snake.svg" alt="GitHub contribution snake" />
+</p>
+
+
 ## 🌐 Connect With Me
 
 <div align="center">
