@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Anurag Pandey developer profile">
+<defs><linearGradient id="g"><stop stop-color="#247bff"/><stop offset="1" stop-color="#ff354f"/></linearGradient><pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#247bff" opacity=".3"/></pattern></defs>
+<rect width="1200" height="360" rx="24" fill="#070b16"/><rect width="1200" height="360" rx="24" fill="url(#dots)"/><circle cx="1050" cy="150" r="190" fill="#247bff" opacity=".08"/><circle cx="1040" cy="160" r="135" fill="none" stroke="url(#g)" stroke-width="2" opacity=".7"/>
+<text x="58" y="68" fill="#a9b8d5" font-family="monospace" font-size="20">&lt; Hello, I'm /&gt;</text>
+<text x="58" y="132" fill="#f2f6ff" font-family="Arial,sans-serif" font-size="54" font-weight="700">Anurag Pandey</text>
+<rect x="58" y="157" width="540" height="3" rx="2" fill="url(#g)"/>
+<text x="58" y="201" fill="#35d5ff" font-family="Arial,sans-serif" font-size="25" font-weight="600">Java Backend Developer</text>
+<text x="58" y="239" fill="#b6c5e2" font-family="Arial,sans-serif" font-size="21">DSA  •  Spring Boot  •  Exploring GenAI</text>
+<text x="58" y="281" fill="#dbe6ff" font-family="Arial,sans-serif" font-size="18">Building practical software, learning every day.</text>
+<text x="58" y="319" fill="#8295bb" font-family="Arial,sans-serif" font-size="16">IET Lucknow  ·  CSE Student</text>
+<g transform="translate(820 40)"><rect width="300" height="265" rx="22" fill="#0b1428" stroke="#234a88"/><circle cx="150" cy="86" r="58" fill="none" stroke="url(#g)" stroke-width="4"/><circle cx="150" cy="86" r="48" fill="#101e39"/><text x="150" y="104" text-anchor="middle" fill="#eaf2ff" font-family="Arial,sans-serif" font-size="48" font-weight="700">AP</text><text x="150" y="180" text-anchor="middle" fill="#f2f6ff" font-family="Arial,sans-serif" font-size="20" font-weight="700">LEARN • BUILD • GROW</text><text x="150" y="212" text-anchor="middle" fill="#8ca5d7" font-family="monospace" font-size="13">backend / security / AI</text><path d="M60 235 H240" stroke="url(#g)" stroke-width="3" stroke-linecap="round"/></g>
+</svg>
